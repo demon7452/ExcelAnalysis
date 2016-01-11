@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+dependencies{
+	compile 'net.sourceforge.jexcelapi:jxl:2.6.12'
+	compile 'org.apache.poi:poi:3.13'
+	compile 'org.apache.commons:commons-lang3:3.4'
+}
